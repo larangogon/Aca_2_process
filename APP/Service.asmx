@@ -1,6 +1,6 @@
 namespace APP
 {
-    public class SoapService : ISoapService
+    public class Service : ISoapService
     {
         ASMXService.Service service;
         public List<Item> Items { get; private set; } = new List<Item>();
