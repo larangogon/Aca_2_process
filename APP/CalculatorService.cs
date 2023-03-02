@@ -1,6 +1,6 @@
 namespace APP
 
-[WebService(Namespace="http://Microsoft.ServiceModel.Samples")]
+[WebService(Namespace="http://larangogon.CalculatorService.Basic")]
 public class CalculatorService : System.Web.Services.WebService
 {
     [WebMethod]
